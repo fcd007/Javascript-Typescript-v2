@@ -1,5 +1,19 @@
 # Javascript e Typescript estudo e estruturas básicas
 
-## Descrição do Projeto
+## Descrição
 
-* O Projeto tem como objetivo apresentar estruturas básicas do Javascript, utilizar exemplos de códigos utilizando typagem estática com o Typescript, utilizando boas práticas e código limpo. Sera utilizado como base o Princípios de engenharia de software, do livro Clean Code de Robert C. Martin , adaptado para JavaScript. Este não é um guia de estilo. É um guia para a produção de software legível, reutilizável e refatorável em JavaScript.
+* O Projeto tem como objetivo apresentar estruturas básicas do Javascript, utilizar exemplos de códigos utilizando typagem estática com o Typescript, utilizando boas práticas e código limpo.
+
+## Sumário
+
+01 - [Arrays](https://github.com/fcd007/Javascript-Typescript-v2/tree/main/01_Arrays)
+* [Splice](https://github.com/fcd007/Javascript-Typescript-v2/tree/main/01_Arrays/ComoUsarSplice);
+* [Concatenação](https://github.com/fcd007/Javascript-Typescript-v2/tree/main/01_Arrays/ConcatenarArrays);
+
+## Contribuindo
+Solicitações pull são bem-vindas. Para mudanças importantes, abra um problema primeiro para discutir o que você gostaria de mudar.
+
+Certifique-se de atualizar os testes conforme apropriado.
+
+## Licença
+[MIT](https://choosealicense.com/licenses/mit/)
