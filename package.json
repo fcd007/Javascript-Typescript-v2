@@ -1,0 +1,23 @@
+{
+  "name": "javascript-typescript-v2",
+  "version": "1.0.0",
+  "description": "## Descrição",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcd007/Javascript-Typescript-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcd007/Javascript-Typescript-v2/issues"
+  },
+  "homepage": "https://github.com/fcd007/Javascript-Typescript-v2#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.0.7"
+  }
+}

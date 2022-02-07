@@ -1,0 +1,7 @@
+# Configurando git com Conventional Commits
+
+## Add git-commit-msg-linter - npm
+### função do commit linter é criar um hook para poder validar nosso pré-commit do projeto
+para instalar execute: 
+npm i git-coomit-msg-linter -D
+
