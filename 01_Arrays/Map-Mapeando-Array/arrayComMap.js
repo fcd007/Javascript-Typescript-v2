@@ -65,19 +65,6 @@ const cpfsMapeadas = pessoas.map((valor) => {
   return valor.cpf;
 });
 
-//caso precise utilizar exibicao de dados selecionados em uma lista
-// console.log("====================================");
-// console.log(idadesMapeadas);
-// console.log("====================================");
-
-// console.log("====================================");
-// console.log(nomesMapeadas);
-// console.log("====================================");
-
-// console.log("====================================");
-// console.log(cpfsMapeadas);
-// console.log("====================================");
-
 //vamos remover o indice idade, pois precisamos mapear nome e cpf do usuario na lista de exibicao
 const listaPessoaFisica = pessoas.map(index => {
   //criando um objeto simplificado sem o indice idade
@@ -86,20 +73,12 @@ const listaPessoaFisica = pessoas.map(index => {
   return pessoaFisica;
 });
 
-// console.log('====================================');
-// console.log(listaPessoaFisica);
-// console.log('====================================');
-
 const listaPessoaIdade = pessoas.map(index => {
   //criando um objeto simplificado sem o indice cpf
   //poderia dar um delete index.cpf
   let pessoaIdade  = { nome: index.nome, cpf: index.idade };
   return pessoaIdade;
 });
-
-// console.log('====================================');
-// console.log(listaPessoaIdade);
-// console.log('====================================');
 
 //vamos criar um objeto com id
 const listaComIds = pessoas.map((objeto, index) => {
@@ -119,10 +98,6 @@ const listaComIds = pessoas.map((objeto, index) => {
 const listaComIdsV2 = pessoas.map((objeto, index) => {
   //criando um objeto simplificado com id
     // let objetoCopy = { id: (index + 1) };
-    objetoCopy = {id: (index + 1), ...objeto};
+    let objetoCopy = {id: (index + 1), ...objeto};
   return objetoCopy;
 });
-
-// console.log('====================================');
-// console.log(listaComIdsV2);
-// console.log('====================================');
