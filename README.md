@@ -10,6 +10,7 @@
 * [Splice](https://github.com/fcd007/Javascript-Typescript-v2/tree/main/01_Arrays/ComoUsarSplice);
 * [Concatenação](https://github.com/fcd007/Javascript-Typescript-v2/tree/main/01_Arrays/ConcatenarArrays);
 * [Filter](https://github.com/fcd007/Javascript-Typescript-v2/tree/main/01_Arrays/ArraysFilter);
+* [Map](https://github.com/fcd007/Javascript-Typescript-v2/blob/main/01_Arrays/Map-Mapeando-Array/arrayComMap.js);
 
 ## Contribuindo
 Solicitações pull são bem-vindas. Para mudanças importantes, abra um problema primeiro para discutir o que você gostaria de mudar.
